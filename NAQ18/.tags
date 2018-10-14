@@ -1,0 +1,12 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+main	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemB.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemB
+main	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemD.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemD
+main	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemK.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemK
+nextTick	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemD.java	/^	public static int[] nextTick(int[] laneSpecs, int[] carPositions){$/;"	m	language:Java	class:ProblemD
+ProblemB	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemB.java	/^public class ProblemB{$/;"	c	language:Java
+ProblemB.main	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemB.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemB
+ProblemD	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemD.java	/^public class ProblemD{$/;"	c	language:Java
+ProblemD.main	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemD.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemD
+ProblemD.nextTick	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemD.java	/^	public static int[] nextTick(int[] laneSpecs, int[] carPositions){$/;"	m	language:Java	class:ProblemD
+ProblemK	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemK.java	/^public class ProblemK {$/;"	c	language:Java
+ProblemK.main	/Users/colinpeppler/Competitive Programming/NAQ18/ProblemK.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemK
