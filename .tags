@@ -1,0 +1,139 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+active	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        boolean active;     \/\/ PushRelabel, FordFulkerson$/;"	f	language:Java	class:FastMaximumFlow.Node
+addFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        void addFlow(long amount) {$/;"	m	language:Java	class:FastMaximumFlow.Edge
+addNode	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public Node addNode() {$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+AhujaOrlin	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        AhujaOrlin ()      { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.AhujaOrlin
+AhujaOrlin	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        AhujaOrlin (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.AhujaOrlin
+AhujaOrlin	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    static class AhujaOrlin extends MaxFlowSolver$/;"	c	language:Java	class:FastMaximumFlow
+BFS	/Users/colinpeppler/CompetitiveProgramming/FordFulkerson.java	/^	static boolean BFS(int[][] residualGraph, int S, int T, int parent[]){$/;"	m	language:Java	class:FordFulkerson
+blocked	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        boolean blocked;    \/\/ Dinic$/;"	f	language:Java	class:FastMaximumFlow.Node
+BlockingFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long BlockingFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+capacity	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        final long capacity;$/;"	f	language:Java	class:FastMaximumFlow.Edge
+compareTo	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^            public int compareTo(Item that) {$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp.Item
+cost	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long cost;      \/\/ only used for MinCost.$/;"	f	language:Java	class:FastMaximumFlow.Edge
+currentarc	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        int currentarc;     \/\/ AhujaOrlin$/;"	f	language:Java	class:FastMaximumFlow.Node
+dfs	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long dfs(Node v, Node snk, long mincap) {$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+Dinic	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public Dinic () { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+Dinic	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public Dinic (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+Dinic	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    public static class Dinic extends MaxFlowSolver$/;"	c	language:Java	class:FastMaximumFlow
+dist	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^            long dist;$/;"	f	language:Java	class:FastMaximumFlow.EdmondsKarp.Item
+dist	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        int dist;           \/\/ PushRelabel, Dinic, and AhujaOrlin.$/;"	f	language:Java	class:FastMaximumFlow.Node
+dual	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        Edge dual;      \/\/ reference to this edge's dual$/;"	f	language:Java	class:FastMaximumFlow.Edge
+Edge	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        protected Edge(Node s, Node d, long c, boolean f)$/;"	m	language:Java	class:FastMaximumFlow.Edge
+Edge	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    public static class Edge$/;"	c	language:Java	class:FastMaximumFlow
+edges	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        List<Edge> edges = new ArrayList<Edge>();$/;"	f	language:Java	class:FastMaximumFlow.Node
+EdmondsKarp	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        EdmondsKarp ()      { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp
+EdmondsKarp	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        EdmondsKarp (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp
+EdmondsKarp	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    static class EdmondsKarp extends MinCostMaxFlowSolver$/;"	c	language:Java	class:FastMaximumFlow
+excess	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long excess;        \/\/ PushRelabel$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^public class FastMaximumFlow{$/;"	c	language:Java
+FastMaximumFlow.AhujaOrlin	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    static class AhujaOrlin extends MaxFlowSolver$/;"	c	language:Java	class:FastMaximumFlow
+FastMaximumFlow.AhujaOrlin.AhujaOrlin	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        AhujaOrlin ()      { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.AhujaOrlin
+FastMaximumFlow.AhujaOrlin.AhujaOrlin	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        AhujaOrlin (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.AhujaOrlin
+FastMaximumFlow.AhujaOrlin.getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long getMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.AhujaOrlin
+FastMaximumFlow.Dinic	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    public static class Dinic extends MaxFlowSolver$/;"	c	language:Java	class:FastMaximumFlow
+FastMaximumFlow.Dinic.BlockingFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long BlockingFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+FastMaximumFlow.Dinic.dfs	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long dfs(Node v, Node snk, long mincap) {$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+FastMaximumFlow.Dinic.Dinic	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public Dinic () { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+FastMaximumFlow.Dinic.Dinic	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public Dinic (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+FastMaximumFlow.Dinic.getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long getMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+FastMaximumFlow.Edge	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    public static class Edge$/;"	c	language:Java	class:FastMaximumFlow
+FastMaximumFlow.Edge.addFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        void addFlow(long amount) {$/;"	m	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.Edge.capacity	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        final long capacity;$/;"	f	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.Edge.cost	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long cost;      \/\/ only used for MinCost.$/;"	f	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.Edge.dual	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        Edge dual;      \/\/ reference to this edge's dual$/;"	f	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.Edge.Edge	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        protected Edge(Node s, Node d, long c, boolean f)$/;"	m	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.Edge.flow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long flow;        \/\/ current flow$/;"	f	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.Edge.forward	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        boolean forward; \/\/ true: edge is in original graph$/;"	f	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.Edge.from	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        Node from, to;   \/\/ nodes connected$/;"	f	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.Edge.remaining	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long remaining() { return capacity - flow; }$/;"	m	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.Edge.to	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        Node from, to;   \/\/ nodes connected$/;"	f	language:Java	class:FastMaximumFlow.Edge
+FastMaximumFlow.EdmondsKarp	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    static class EdmondsKarp extends MinCostMaxFlowSolver$/;"	c	language:Java	class:FastMaximumFlow
+FastMaximumFlow.EdmondsKarp.EdmondsKarp	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        EdmondsKarp ()      { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp
+FastMaximumFlow.EdmondsKarp.EdmondsKarp	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        EdmondsKarp (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp
+FastMaximumFlow.EdmondsKarp.getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long getMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp
+FastMaximumFlow.EdmondsKarp.getMinCostMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long [] getMinCostMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp
+FastMaximumFlow.EdmondsKarp.INF	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        static final long INF = Long.MAX_VALUE\/4;$/;"	f	language:Java	class:FastMaximumFlow.EdmondsKarp
+FastMaximumFlow.EdmondsKarp.Item	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        static class Item implements Comparable<Item> {$/;"	c	language:Java	class:FastMaximumFlow.EdmondsKarp
+FastMaximumFlow.EdmondsKarp.Item.compareTo	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^            public int compareTo(Item that) {$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp.Item
+FastMaximumFlow.EdmondsKarp.Item.dist	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^            long dist;$/;"	f	language:Java	class:FastMaximumFlow.EdmondsKarp.Item
+FastMaximumFlow.EdmondsKarp.Item.Item	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^            public Item(long dist, int v) {$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp.Item
+FastMaximumFlow.EdmondsKarp.Item.v	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^            int v;$/;"	f	language:Java	class:FastMaximumFlow.EdmondsKarp.Item
+FastMaximumFlow.EdmondsKarp.minCost	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long minCost;$/;"	f	language:Java	class:FastMaximumFlow.EdmondsKarp
+FastMaximumFlow.FordFulkerson	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    static class FordFulkerson extends MaxFlowSolver$/;"	c	language:Java	class:FastMaximumFlow
+FastMaximumFlow.FordFulkerson.findAugmentingPath	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long findAugmentingPath(Node src, Node snk, Edge [] from) {$/;"	m	language:Java	class:FastMaximumFlow.FordFulkerson
+FastMaximumFlow.FordFulkerson.FordFulkerson	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        FordFulkerson ()      { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.FordFulkerson
+FastMaximumFlow.FordFulkerson.FordFulkerson	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        FordFulkerson (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.FordFulkerson
+FastMaximumFlow.FordFulkerson.getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long getMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.FordFulkerson
+FastMaximumFlow.main	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:FastMaximumFlow
+FastMaximumFlow.MaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    public static abstract class MaxFlowSolver {$/;"	c	language:Java	class:FastMaximumFlow
+FastMaximumFlow.MaxFlowSolver.addNode	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public Node addNode() {$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+FastMaximumFlow.MaxFlowSolver.getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public abstract long getMaxFlow(Node src, Node snk);$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+FastMaximumFlow.MaxFlowSolver.getMinCut	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        List<Edge> getMinCut(Node src) {$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+FastMaximumFlow.MaxFlowSolver.link	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public void link(Node n1, Node n2, long capacity)$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+FastMaximumFlow.MaxFlowSolver.link	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public void link(Node n1, Node n2, long capacity, long cost)$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+FastMaximumFlow.MaxFlowSolver.link	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        void link(int n1, int n2, long capacity)$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+FastMaximumFlow.MaxFlowSolver.MaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        protected MaxFlowSolver() { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+FastMaximumFlow.MaxFlowSolver.MaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        protected MaxFlowSolver(int n) {$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+FastMaximumFlow.MaxFlowSolver.nodes	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        List<Node> nodes = new ArrayList<Node>();$/;"	f	language:Java	class:FastMaximumFlow.MaxFlowSolver
+FastMaximumFlow.MinCostMaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    static abstract class MinCostMaxFlowSolver extends MaxFlowSolver {$/;"	c	language:Java	class:FastMaximumFlow
+FastMaximumFlow.MinCostMaxFlowSolver.getMinCostMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        abstract long [] getMinCostMaxFlow(Node src, Node snk);$/;"	m	language:Java	class:FastMaximumFlow.MinCostMaxFlowSolver
+FastMaximumFlow.MinCostMaxFlowSolver.MinCostMaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        MinCostMaxFlowSolver ()      { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.MinCostMaxFlowSolver
+FastMaximumFlow.MinCostMaxFlowSolver.MinCostMaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        MinCostMaxFlowSolver (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.MinCostMaxFlowSolver
+FastMaximumFlow.Node	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    public static class Node {$/;"	c	language:Java	class:FastMaximumFlow
+FastMaximumFlow.Node.active	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        boolean active;     \/\/ PushRelabel, FordFulkerson$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow.Node.blocked	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        boolean blocked;    \/\/ Dinic$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow.Node.currentarc	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        int currentarc;     \/\/ AhujaOrlin$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow.Node.dist	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        int dist;           \/\/ PushRelabel, Dinic, and AhujaOrlin.$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow.Node.edges	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        List<Edge> edges = new ArrayList<Edge>();$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow.Node.excess	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long excess;        \/\/ PushRelabel$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow.Node.index	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        int index;          \/\/ index in nodes array$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow.Node.minCapacity	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long minCapacity;   \/\/ FordFulkerson, AhujaOrlin$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow.Node.mindj	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        int mindj;          \/\/ AhujaOrlin$/;"	f	language:Java	class:FastMaximumFlow.Node
+FastMaximumFlow.Node.Node	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        private Node() { }$/;"	m	language:Java	class:FastMaximumFlow.Node	file:
+FF	/Users/colinpeppler/CompetitiveProgramming/FordFulkerson.java	/^	static int FF(int[][] graph, int S, int T){$/;"	m	language:Java	class:FordFulkerson
+findAugmentingPath	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long findAugmentingPath(Node src, Node snk, Edge [] from) {$/;"	m	language:Java	class:FastMaximumFlow.FordFulkerson
+flow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long flow;        \/\/ current flow$/;"	f	language:Java	class:FastMaximumFlow.Edge
+FordFulkerson	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        FordFulkerson ()      { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.FordFulkerson
+FordFulkerson	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        FordFulkerson (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.FordFulkerson
+FordFulkerson	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    static class FordFulkerson extends MaxFlowSolver$/;"	c	language:Java	class:FastMaximumFlow
+FordFulkerson	/Users/colinpeppler/CompetitiveProgramming/FordFulkerson.java	/^public class FordFulkerson{$/;"	c	language:Java
+FordFulkerson.BFS	/Users/colinpeppler/CompetitiveProgramming/FordFulkerson.java	/^	static boolean BFS(int[][] residualGraph, int S, int T, int parent[]){$/;"	m	language:Java	class:FordFulkerson
+FordFulkerson.FF	/Users/colinpeppler/CompetitiveProgramming/FordFulkerson.java	/^	static int FF(int[][] graph, int S, int T){$/;"	m	language:Java	class:FordFulkerson
+FordFulkerson.main	/Users/colinpeppler/CompetitiveProgramming/FordFulkerson.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:FordFulkerson
+FordFulkerson.numOfVertices	/Users/colinpeppler/CompetitiveProgramming/FordFulkerson.java	/^	static int numOfVertices = 0;$/;"	f	language:Java	class:FordFulkerson
+forward	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        boolean forward; \/\/ true: edge is in original graph$/;"	f	language:Java	class:FastMaximumFlow.Edge
+from	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        Node from, to;   \/\/ nodes connected$/;"	f	language:Java	class:FastMaximumFlow.Edge
+getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public abstract long getMaxFlow(Node src, Node snk);$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long getMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.AhujaOrlin
+getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long getMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.Dinic
+getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long getMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp
+getMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long getMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.FordFulkerson
+getMinCostMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        abstract long [] getMinCostMaxFlow(Node src, Node snk);$/;"	m	language:Java	class:FastMaximumFlow.MinCostMaxFlowSolver
+getMinCostMaxFlow	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public long [] getMinCostMaxFlow(Node src, Node snk) {$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp
+getMinCut	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        List<Edge> getMinCut(Node src) {$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+index	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        int index;          \/\/ index in nodes array$/;"	f	language:Java	class:FastMaximumFlow.Node
+INF	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        static final long INF = Long.MAX_VALUE\/4;$/;"	f	language:Java	class:FastMaximumFlow.EdmondsKarp
+Item	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^            public Item(long dist, int v) {$/;"	m	language:Java	class:FastMaximumFlow.EdmondsKarp.Item
+Item	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        static class Item implements Comparable<Item> {$/;"	c	language:Java	class:FastMaximumFlow.EdmondsKarp
+link	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public void link(Node n1, Node n2, long capacity)$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+link	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        public void link(Node n1, Node n2, long capacity, long cost)$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+link	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        void link(int n1, int n2, long capacity)$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+main	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:FastMaximumFlow
+main	/Users/colinpeppler/CompetitiveProgramming/FordFulkerson.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:FordFulkerson
+MaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        protected MaxFlowSolver() { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+MaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        protected MaxFlowSolver(int n) {$/;"	m	language:Java	class:FastMaximumFlow.MaxFlowSolver
+MaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    public static abstract class MaxFlowSolver {$/;"	c	language:Java	class:FastMaximumFlow
+minCapacity	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long minCapacity;   \/\/ FordFulkerson, AhujaOrlin$/;"	f	language:Java	class:FastMaximumFlow.Node
+minCost	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long minCost;$/;"	f	language:Java	class:FastMaximumFlow.EdmondsKarp
+MinCostMaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        MinCostMaxFlowSolver ()      { this(0); }$/;"	m	language:Java	class:FastMaximumFlow.MinCostMaxFlowSolver
+MinCostMaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        MinCostMaxFlowSolver (int n) { super(n); }$/;"	m	language:Java	class:FastMaximumFlow.MinCostMaxFlowSolver
+MinCostMaxFlowSolver	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    static abstract class MinCostMaxFlowSolver extends MaxFlowSolver {$/;"	c	language:Java	class:FastMaximumFlow
+mindj	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        int mindj;          \/\/ AhujaOrlin$/;"	f	language:Java	class:FastMaximumFlow.Node
+Node	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        private Node() { }$/;"	m	language:Java	class:FastMaximumFlow.Node	file:
+Node	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^    public static class Node {$/;"	c	language:Java	class:FastMaximumFlow
+nodes	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        List<Node> nodes = new ArrayList<Node>();$/;"	f	language:Java	class:FastMaximumFlow.MaxFlowSolver
+numOfVertices	/Users/colinpeppler/CompetitiveProgramming/FordFulkerson.java	/^	static int numOfVertices = 0;$/;"	f	language:Java	class:FordFulkerson
+remaining	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        long remaining() { return capacity - flow; }$/;"	m	language:Java	class:FastMaximumFlow.Edge
+to	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^        Node from, to;   \/\/ nodes connected$/;"	f	language:Java	class:FastMaximumFlow.Edge
+v	/Users/colinpeppler/CompetitiveProgramming/FastMaximumFlow.java	/^            int v;$/;"	f	language:Java	class:FastMaximumFlow.EdmondsKarp.Item
