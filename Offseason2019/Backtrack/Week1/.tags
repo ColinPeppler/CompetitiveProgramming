@@ -1,0 +1,8 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+ans	/Users/colinpeppler/CompetitiveProgramming/Offseason2019/Backtrack/Week1/ProblemA.java	/^	static List<Integer> ans = new ArrayList<Integer>();$/;"	f	language:Java	class:ProblemA
+backtrack	/Users/colinpeppler/CompetitiveProgramming/Offseason2019/Backtrack/Week1/ProblemA.java	/^	public static boolean backtrack(boolean[] visited, List<ArrayList<Integer>> hateList, int index){$/;"	m	language:Java	class:ProblemA
+main	/Users/colinpeppler/CompetitiveProgramming/Offseason2019/Backtrack/Week1/ProblemA.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemA
+ProblemA	/Users/colinpeppler/CompetitiveProgramming/Offseason2019/Backtrack/Week1/ProblemA.java	/^public class ProblemA{$/;"	c	language:Java
+ProblemA.ans	/Users/colinpeppler/CompetitiveProgramming/Offseason2019/Backtrack/Week1/ProblemA.java	/^	static List<Integer> ans = new ArrayList<Integer>();$/;"	f	language:Java	class:ProblemA
+ProblemA.backtrack	/Users/colinpeppler/CompetitiveProgramming/Offseason2019/Backtrack/Week1/ProblemA.java	/^	public static boolean backtrack(boolean[] visited, List<ArrayList<Integer>> hateList, int index){$/;"	m	language:Java	class:ProblemA
+ProblemA.main	/Users/colinpeppler/CompetitiveProgramming/Offseason2019/Backtrack/Week1/ProblemA.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemA
