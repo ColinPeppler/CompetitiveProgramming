@@ -1,0 +1,54 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+add	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void add(Person p){$/;"	m	language:Java	class:SickTravelers.Location
+allHealthy	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static boolean allHealthy(List<Person> travelers){$/;"	m	language:Java	class:SickTravelers
+becomeSick	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void becomeSick(){$/;"	m	language:Java	class:SickTravelers.Person
+currLoc	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		Location currLoc;$/;"	f	language:Java	class:SickTravelers.Person
+destinations	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		List<Location> destinations;$/;"	f	language:Java	class:SickTravelers.Person
+getHealth	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String getHealth(){$/;"	m	language:Java	class:SickTravelers.Person
+getName	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String getName(){$/;"	m	language:Java	class:SickTravelers.Person
+health	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String health;$/;"	f	language:Java	class:SickTravelers.Person
+infect	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void infect(){$/;"	m	language:Java	class:SickTravelers.Location
+isHealthy	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		boolean isHealthy(){$/;"	m	language:Java	class:SickTravelers.Person
+Location	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		public Location(String name){$/;"	m	language:Java	class:SickTravelers.Location
+Location	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static class Location{$/;"	c	language:Java	class:SickTravelers
+locIndex	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		int locIndex;$/;"	f	language:Java	class:SickTravelers.Person
+main	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:SickTravelers
+name	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String name;$/;"	f	language:Java	class:SickTravelers.Location
+name	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String name;$/;"	f	language:Java	class:SickTravelers.Person
+nextDay	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void nextDay(){$/;"	m	language:Java	class:SickTravelers.Location
+nextDay	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static void nextDay(List<Person> travelers, Set<Location> locations){$/;"	m	language:Java	class:SickTravelers
+parse	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static void parse(List<String> list){$/;"	m	language:Java	class:SickTravelers
+Person	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		public Person(String name, String health, List<Location> dest){$/;"	m	language:Java	class:SickTravelers.Person
+Person	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static class Person{$/;"	c	language:Java	class:SickTravelers
+remove	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void remove(Person p){$/;"	m	language:Java	class:SickTravelers.Location
+SickTravelers	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^public class SickTravelers{$/;"	c	language:Java
+SickTravelers.allHealthy	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static boolean allHealthy(List<Person> travelers){$/;"	m	language:Java	class:SickTravelers
+SickTravelers.Location	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static class Location{$/;"	c	language:Java	class:SickTravelers
+SickTravelers.Location.add	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void add(Person p){$/;"	m	language:Java	class:SickTravelers.Location
+SickTravelers.Location.infect	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void infect(){$/;"	m	language:Java	class:SickTravelers.Location
+SickTravelers.Location.Location	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		public Location(String name){$/;"	m	language:Java	class:SickTravelers.Location
+SickTravelers.Location.name	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String name;$/;"	f	language:Java	class:SickTravelers.Location
+SickTravelers.Location.nextDay	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void nextDay(){$/;"	m	language:Java	class:SickTravelers.Location
+SickTravelers.Location.remove	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void remove(Person p){$/;"	m	language:Java	class:SickTravelers.Location
+SickTravelers.Location.travelers	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		Set<Person> travelers;$/;"	f	language:Java	class:SickTravelers.Location
+SickTravelers.Location.update	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void update(){$/;"	m	language:Java	class:SickTravelers.Location
+SickTravelers.main	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:SickTravelers
+SickTravelers.nextDay	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static void nextDay(List<Person> travelers, Set<Location> locations){$/;"	m	language:Java	class:SickTravelers
+SickTravelers.parse	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static void parse(List<String> list){$/;"	m	language:Java	class:SickTravelers
+SickTravelers.Person	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static class Person{$/;"	c	language:Java	class:SickTravelers
+SickTravelers.Person.becomeSick	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void becomeSick(){$/;"	m	language:Java	class:SickTravelers.Person
+SickTravelers.Person.currLoc	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		Location currLoc;$/;"	f	language:Java	class:SickTravelers.Person
+SickTravelers.Person.destinations	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		List<Location> destinations;$/;"	f	language:Java	class:SickTravelers.Person
+SickTravelers.Person.getHealth	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String getHealth(){$/;"	m	language:Java	class:SickTravelers.Person
+SickTravelers.Person.getName	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String getName(){$/;"	m	language:Java	class:SickTravelers.Person
+SickTravelers.Person.health	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String health;$/;"	f	language:Java	class:SickTravelers.Person
+SickTravelers.Person.isHealthy	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		boolean isHealthy(){$/;"	m	language:Java	class:SickTravelers.Person
+SickTravelers.Person.locIndex	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		int locIndex;$/;"	f	language:Java	class:SickTravelers.Person
+SickTravelers.Person.name	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		String name;$/;"	f	language:Java	class:SickTravelers.Person
+SickTravelers.Person.Person	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		public Person(String name, String health, List<Location> dest){$/;"	m	language:Java	class:SickTravelers.Person
+SickTravelers.Person.update	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void update(){$/;"	m	language:Java	class:SickTravelers.Person
+SickTravelers.solve	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static void solve(List<Person> travelers, Set<Location> locations){$/;"	m	language:Java	class:SickTravelers
+solve	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^	public static void solve(List<Person> travelers, Set<Location> locations){$/;"	m	language:Java	class:SickTravelers
+travelers	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		Set<Person> travelers;$/;"	f	language:Java	class:SickTravelers.Location
+update	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void update(){$/;"	m	language:Java	class:SickTravelers.Location
+update	/Users/colinpeppler/CompetitiveProgramming/HackerRanks/SickTravelers.java	/^		void update(){$/;"	m	language:Java	class:SickTravelers.Person
