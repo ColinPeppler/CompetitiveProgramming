@@ -1,0 +1,21 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+adj	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		List<Node> adj;$/;"	f	language:Java	class:ProblemD.Node
+compareTo	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		public int compareTo(Node other){$/;"	m	language:Java	class:ProblemD.Node
+DFS	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^	public static void DFS(Node curr, Set<Node> set){$/;"	m	language:Java	class:ProblemD
+main	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemA.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemA
+main	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemD
+Node	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		public Node(int pupil, int place){$/;"	m	language:Java	class:ProblemD.Node
+Node	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^	static class Node implements Comparable<Node>{$/;"	c	language:Java	class:ProblemD
+place	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		int place;$/;"	f	language:Java	class:ProblemD.Node
+ProblemA	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemA.java	/^public class ProblemA{$/;"	c	language:Java
+ProblemA.main	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemA.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemA
+ProblemD	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^public class ProblemD{$/;"	c	language:Java
+ProblemD.DFS	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^	public static void DFS(Node curr, Set<Node> set){$/;"	m	language:Java	class:ProblemD
+ProblemD.main	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemD
+ProblemD.Node	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^	static class Node implements Comparable<Node>{$/;"	c	language:Java	class:ProblemD
+ProblemD.Node.adj	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		List<Node> adj;$/;"	f	language:Java	class:ProblemD.Node
+ProblemD.Node.compareTo	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		public int compareTo(Node other){$/;"	m	language:Java	class:ProblemD.Node
+ProblemD.Node.Node	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		public Node(int pupil, int place){$/;"	m	language:Java	class:ProblemD.Node
+ProblemD.Node.place	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		int place;$/;"	f	language:Java	class:ProblemD.Node
+ProblemD.Node.pupil	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		int pupil;$/;"	f	language:Java	class:ProblemD.Node
+pupil	/Users/colinpeppler/CompetitiveProgramming/CodeForces/Round546/ProblemD.java	/^		int pupil;$/;"	f	language:Java	class:ProblemD.Node
