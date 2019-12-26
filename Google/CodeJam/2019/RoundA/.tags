@@ -1,0 +1,27 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+add	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		void add(int i, int val){$/;"	m	language:Java	class:Training.PrefixTree
+calculateDistances	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static int calculateDistances(int[][] distances, int[][] matrix, List<Point> offices){$/;"	m	language:Java	class:Parcels
+calculateManhattanDistance	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static int calculateManhattanDistance(int r1, int c1, int r2, int c2){$/;"	m	language:Java	class:Parcels
+calculateMinDistToOffice	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static int calculateMinDistToOffice(int[][] matrix, int r, int c, List<Point> offices){$/;"	m	language:Java	class:Parcels
+findFarthestPoint	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static Point findFarthestPoint(int[][] distances){$/;"	m	language:Java	class:Parcels
+getPartialSum	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		long getPartialSum(int i){$/;"	m	language:Java	class:Training.PrefixTree
+getRangeSum	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		long getRangeSum(int from, int to){$/;"	m	language:Java	class:Training.PrefixTree
+main	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:Parcels
+main	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:Training
+Parcels	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^public class Parcels{$/;"	c	language:Java
+Parcels.calculateDistances	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static int calculateDistances(int[][] distances, int[][] matrix, List<Point> offices){$/;"	m	language:Java	class:Parcels
+Parcels.calculateManhattanDistance	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static int calculateManhattanDistance(int r1, int c1, int r2, int c2){$/;"	m	language:Java	class:Parcels
+Parcels.calculateMinDistToOffice	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static int calculateMinDistToOffice(int[][] matrix, int r, int c, List<Point> offices){$/;"	m	language:Java	class:Parcels
+Parcels.findFarthestPoint	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static Point findFarthestPoint(int[][] distances){$/;"	m	language:Java	class:Parcels
+Parcels.main	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Parcels.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:Parcels
+PrefixTree	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		PrefixTree(int size){$/;"	m	language:Java	class:Training.PrefixTree
+PrefixTree	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^	static class PrefixTree{$/;"	c	language:Java	class:Training
+Training	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^public class Training{$/;"	c	language:Java
+Training.main	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:Training
+Training.PrefixTree	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^	static class PrefixTree{$/;"	c	language:Java	class:Training
+Training.PrefixTree.add	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		void add(int i, int val){$/;"	m	language:Java	class:Training.PrefixTree
+Training.PrefixTree.getPartialSum	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		long getPartialSum(int i){$/;"	m	language:Java	class:Training.PrefixTree
+Training.PrefixTree.getRangeSum	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		long getRangeSum(int from, int to){$/;"	m	language:Java	class:Training.PrefixTree
+Training.PrefixTree.PrefixTree	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		PrefixTree(int size){$/;"	m	language:Java	class:Training.PrefixTree
+Training.PrefixTree.tree	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		private long[] tree;$/;"	f	language:Java	class:Training.PrefixTree	file:
+tree	/Users/colinpeppler/CompetitiveProgramming/GoogleKickStart/RoundA/Training.java	/^		private long[] tree;$/;"	f	language:Java	class:Training.PrefixTree	file:

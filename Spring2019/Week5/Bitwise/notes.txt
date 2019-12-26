@@ -1,0 +1,45 @@
+XOR (^)
+0 - match, 1 - otherwise
+1011
+0001
+1010
+ 
+has an inverse
+good for computing mask difference
+XOR is its own inverse
+a^a = 0
+a^0 = a
+(a^b)^b = a^(b^b) 
+a^b = c -> a^c=b -> b^c=a
+
+BITSHIFTS (<< or >>)
+same thing as *2 or /2 since it's binary
+moves everything by one, like sliding left/right adding 0 to end/front
+111 << 1 = 1110
+111 >> 1 = 11
+
+useful for masks
+
+BIT MASKS
+effective in storing information if you can represent ur set in
+less than 64 elements, then u can store them as a number and 
+treat 1 in the binary representation as an inclusion of some element
+in some set.
+					   7 54  1		
+7 items: 1, 4, 5, 7 -> 1011001
+check if 3 was in the set
+1011001 & (1 << 3) > 0
+1 - if 1 in 3, 0 if 0 in 3
+
+SET A: 110001
+SET B: 101101
+A^B:   011100 (1 if not in both sets, 0 otherwises)
+
+bitwise operations have no precedence
+* use parenthesis
+
+if ||S|| > 64 than use bitset in Java
+
+%2 ~= &1
+4%2 = 0 == 110&001 = 000 (0)
+7%2 = 1 == 111&001 = 001 (1)

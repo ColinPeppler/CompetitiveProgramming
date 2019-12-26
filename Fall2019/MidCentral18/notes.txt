@@ -1,0 +1,87 @@
+Problem B: Exam (Principle of Inclusion and Exclusion)
+	- A & B & C is the maximum number of answers you can be correct
+		A: friend is correct
+		B: you're correct 
+		C: same answers
+	n = |A| + |B| + |C| - 2|A & B & C|
+	|B| = n - |A| - |C| + 2|A & B & C|
+	|B| is the number of correct answers
+
+Problem F: Goat Rope (Geometry)
+	- use Reactangle2D.Double can compute if a point is outside a rectangle
+	- use Math.hypot(x,y) for euclidean distance
+	- can also use min(x1-x, x2-x)
+
+Problem A: Tree House (Kruskal)
+	- only use naive Kruskal when n < 1000
+	- implement with Disjoint Set in any other case
+
+Problem C: Cops And Robbers (Min-Cut)
+	- represent node constraints with node splitting into in and out nodes
+	- use matrix to store in/out nodes for nodes in a graph
+	- use direction arrays + for loop to do N/S/E/W
+		- link out -> in instead of both out -> in & in -> out
+	- use INF = Long.MAX_VALUE/2 to avoid overflow
+
+Problem K: Repeated Substrings (Suffix Array w/ Longest Common Prefix)
+	- use LCP as a auxilillary data structure
+		- each index is the length of the longest common prefix with the
+		previous suffix in the Suffix Array
+	- i : is the index of the original array
+	- sa: is the the index of the current suffix in the original array
+		- sa is in lexicographical order
+
+Problem C: Coprime Integers
+	1.) using Principle of Inclusion and Exclusion approach
+	- d - (multiples of 2) - (multiples of 3) + 
+	(multiples of 4) + (multiples of 2 * 3) + ...
+	- d - sum(d/p_i) + sum(d/p_i*p_j) - sum(d/p_i*p_j*p_k)
+	2.) Using Principle of Inclusion and Exclusion & Sieve
+	- x = p1^e1 * p2^e2 * ... * pk^ek
+		- if e1, e2, ..., ek > 1 then ignore
+		- if the number of prime factors is
+			- odd : then subtract
+			- even: then add
+			* mobius function
+	- check if x is
+		- prime: set all multiples as +1
+		- composite: set all multiples as -1
+	
+Problem I: Random Manhattan Distance
+	- Insight: E[D(x,y)] = E[|x2-x1|] + E[|y2-y1|]	
+	- divide the polygons into zones
+		- start at left most point 
+		- use two pointers to follow top/bottom line
+	- x: only care about width
+	- y: only care about height
+	- p = Area of zone / Area of convex shape
+	- Case 1: x1 and x2 are in the same zone
+		- find the expected value using the joint distribution function
+		- integral of f(x1)f(x2)(x1-x2)dx1dx2
+	- Case 2: x1 is in a zone to the left of x2
+		- E[x2] = integral of x1f(x1)dx1
+
+Problem H: Mobilization
+	- budget = sum(u_i * c_i) for i in [1,n]
+	- maximize sum(u_i * p_i) * sum(u_i * h_i) for i in [1,n]
+	- convex combination is a linear combination where the sum = 1
+
+Problem B: Illiteracy (BFS)
+shortest number of operations from start word -> end word is a BFS
+Insight - Represent each state as a graph
+Strings are Nodes
+String Manipulation are Edges
+- BFS will give us the shortest path
+
+Problem D: Slow Leak (State Based Dijkstra)
+- how to correctly track how much air we have (this is our state)
+	- we can't track tire pressure for 2^31 states
+	- a workaround is to break ties with tire pressure
+		- this may not lead to an answer
+	- the shortest path may not allow you to reach home
+	- but if any repair shop is reachable and the repair node can reach home
+	than you can run dijkstra from that repair node
+		- create an edge from repair node to another reachable repair node
+		and save the shortest distance from start to the original repair node
+	- now run dijkstras on the new graph
+	- set start and goal as repair nodes for the case u don't need repair nodes

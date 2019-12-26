@@ -1,0 +1,26 @@
+ProblemA: Chicken McNuggets
+- Checking all possible linear combinations of ax + by + cz = n
+- Brute force using 3 for loops
+
+ProblemB: Grandmother's Jam
+- Simulate an order of washing (3mins), filling (2mins) and closing (1min)
+- I ran into two edge cases (both b.c they are small # where there is overlap)
+	a. n = 8
+	b. n = 9
+- could've checked first 10 cases
+
+ProblemC: Chicken McNuggets Hard
+- acting similar to a sieve
+- Frobenius number is the largest number for b
+	s. t. ax + by + ... + cz = b has NO SOLUTION	
+
+
+
+Math Gone Viral
+- using a Stack
+- expression tree
+- recursive descent parser
+
+Bab's Bob Boutique
+- track state using bitmask dp
+- or just using backtracking since n <= 10

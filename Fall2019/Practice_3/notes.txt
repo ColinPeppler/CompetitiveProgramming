@@ -1,0 +1,84 @@
+Problem A: Potato Sacks (let's try to upsolve by this)
+memomize the weight and index	
+- fill with -1
+- if DP[weight][index] == -1 then compute
+- if not DP[weight][index] == -1 return DP[weight][index]
+
+
+Problem C: Hedwig Ladder
+similar to rectangular problem on kattis
+draw out possible scenarios
+symmetry
+----------------------------------------------------------------------------------
+
+
+Problem F: Left-Right-Win
+# Context
+want to find how much each player should contribute to a total pot of $100
+player0 will put in more money than player3 because of the probability of the game
+check out Arcade! in 2016 ICPC NAQ
+----------------------------------------------------------------------------------
+
+# Concept
+Stochastic process modeled by Markov Chains
+Each state change has a probability
+- there are 3 possible state changes
+	  i.) move to left (w/ P_left)
+	 ii.) move to right (w/ P_right)
+	iii.) win (w/ 1 - P_left - P_right)
+
+Markov Chain is represented as a matrix
+v0 = ( 0 ... 1 ... )
+		   s_i
+v1 = v0*P
+vn = v0*P^n
+
+P^n can be calculated using conditional probability 
+P(A|B) = P(A U B) / P(A) so P(A U B) = P(A|B) * P(A)
+
+# Application
+1.) Top Left: transient states
+matrix[0][5] = p_right 	(Player 0 -> Player5)
+matrix[5][1] = p_left 	(Player 0 <- Player 5)
+
+matrix[0][1] = p_left   (Player 1 <- Player 0)
+matrix[1][0] = p_right  (Player 1 -> Player 0)
+
+2.) Top Right: win states
+matrix[i][i] = 1 - p_right - p_left
+
+3.) Bottom Left: 0 	(useless)
+
+4.) Bottom Right: 1 (to represent an absorbing state (reaching the win state))
+
+Our P matrix is represented by 	|	[Top Left] 		[Top Right]		|
+								|	[Bottom Left] 	[Bottom Right]	|	
+
+Our starting state should always be represented by a 1
+- in this case player 0 is starting so their state is represented by 1
+
+We are adding the probabilities because we want to add the the probability coming 
+from the left and from the right
+* don't need to calculate using linear algebra
+
+As n->infinity we should have the probability to be in each state
+* instead we have a cap about 1000 should be good
+
+Also could be solved with Monte Carlo Simulation 
+----------------------------------------------------------------------------------
+
+
+Problem H: Subprime Fibonacci Sequence
+	- actually simulating the process a large number of times
+	- a_n+1 = subprime(a_n + a_n+1)
+		odd: where subprime(n) = n for primes  
+		even: subprime(n) = n/p if p is the lowest prime dividing n
+----------------------------------------------------------------------------------
+
+Problem F: Pinemi Puzzles (BACKTRACK)
+[x] indicates there is x strokes in the 3x3 box around [x]
+but there must be 10 srokes in each row & column
+check contraints using data structures
+
+Problem D: What time is it? (AD-HOC)
+Generate all possible candidates then take the union of them to get the answer

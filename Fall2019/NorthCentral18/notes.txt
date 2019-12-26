@@ -1,0 +1,33 @@
+Problem C: Rational Ratio
+- use Decimal class in java
+
+Problem D: Travel The Skies
+- Ad-hoc since we just want to see if it's POSSIBLE to fill all flights
+with any passenger
+
+Problem G: Tima goes to Xentopia
+- State based Dijkstra
+- Construct a layer graph
+	- a lot of layers one for each traversal
+		1. a layer for traversing to white
+		2. layers for traversing reds
+		3. layers for traversing blues
+		4. layers for traversing from reds to blues
+
+Problem J: Palindromes
+- Integer.toString(x, b) has converting to bases built in
+
+Problem B: Maximum Subarrays
+1st state: the index of where we are at
+2nd state: how many computed subarrays
+3rd state: whether we take the element or not
+
+Problem A: Pokegene
+1. we can use a trie to model our pokemon
+	- pokemon with the same prefix will be children of that prefix
+2. use lowest common ancestor to find any pokemon who share an ancestor
+	- the LCA is the first ancestor in common for the ancestor's pokemon
+3. we add the number of children from a DFS and saving it in a table
+	- # children of root = # children of left + # children of right
+4. compress nodes if they're not an LCA of at least 2 pokemon
+

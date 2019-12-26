@@ -1,0 +1,36 @@
+Problem J: Watch Where You Step (Strongly Connected Components)
+- each zone is a strongly connected component
+- a component where each element is connected
+- all strongly connected components form a linear chain
+* use SCC class in handbook
+
+1.) Find strongly connected components using Tarjans in O(n)
+2.) Find the number of nodes within each strongly connected component
+3.) Then calculate with
+	insight: if strongly connected component A is connected to strongly
+	connected component B then all nodes in A can connect to nodes in B
+
+
+Problem G: Roman Holiday (
+Insight: The Roman numerals repeat in blocks 0-38
+Use Int->Roman using a dict
+
+
+Problem I: Tour De Sales Force (TSP)
+Context: given 50 graphs, each having 3-8 nodes
+(a) find total length of the tour, assuming shortest length
+(b) find optimal way to sort tours into 25 merged pairs with an overal
+shortest tour length
+- time complexity = O(2^n * n^2)
+	- 2^n for each possible subset
+
+B(S,w) = min over all v in S\{w} [B(S/{w},v) + cost(u,w))]
+
+finding optimal matching = max weight matching in a bipartite graph
+hungarian + mincost
+
+
+Problem Sequential Yahtzee (DP)
+base case: if index + 5 > N
+calculation: calculate the maximum value
+DP[i][j] = DP[i+1][j+1] + max(i)

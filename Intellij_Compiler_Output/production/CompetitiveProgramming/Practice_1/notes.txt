@@ -1,0 +1,18 @@
+Problem A: Flash Mob
+- median(x) & median(y)
+- sum(|x_i - s) will be minimized with s = median
+
+Problem B: I've got your back
+- use a lot of for loops to generate configurations
+- map configuration to an integer
+
+Problem D: Road Series
+- ad hoc
+
+Sofa So Good:
+- Min Cut
+- Hungarian Algorithm
+
+Hungarian Algorithm:
+given nxn matrix
+it will solve the most optimal assignment

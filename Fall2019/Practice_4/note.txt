@@ -1,0 +1,14 @@
+Abstract Art
+1. Make the art a bipartite graph
+r - G - r
+|   |   |
+G - r - G
+
+2. You can make a node an edge by splitting it into an in and out node
+u = edge(u_in,u_out)
+
+3. Make the bipartite graph a flow graph
+
+Vertex Cover: A set of verticies such that edge vertex has at least one edge
+Konig's theorem: the maximum number of matched edges, is the minimum number of edges in the graph's vertex cover
+Alternating path: Going from a match to unmatched edge, matched to unmatched and so on

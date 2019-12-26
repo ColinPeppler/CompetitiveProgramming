@@ -1,0 +1,12 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+Cryptopangrams	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/Cryptopangrams.java	/^public class Cryptopangrams{$/;"	c	language:Java
+Cryptopangrams.main	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/Cryptopangrams.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:Cryptopangrams
+ForegoneSolution	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/ForegoneSolution.java	/^public class ForegoneSolution{$/;"	c	language:Java
+ForegoneSolution.hasFour	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/ForegoneSolution.java	/^	static boolean hasFour(int x){$/;"	m	language:Java	class:ForegoneSolution
+ForegoneSolution.main	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/ForegoneSolution.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ForegoneSolution
+hasFour	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/ForegoneSolution.java	/^	static boolean hasFour(int x){$/;"	m	language:Java	class:ForegoneSolution
+Labyrinth	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/Labyrinth.java	/^public class Labyrinth{$/;"	c	language:Java
+Labyrinth.main	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/Labyrinth.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:Labyrinth
+main	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/Cryptopangrams.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:Cryptopangrams
+main	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/ForegoneSolution.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ForegoneSolution
+main	/Users/colinpeppler/CompetitiveProgramming/Google/KickStart/2019/Qualification/Labyrinth.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:Labyrinth

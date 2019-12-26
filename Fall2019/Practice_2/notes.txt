@@ -1,0 +1,31 @@
+A.) Paint the numbers
+paint each number and each number can share a color if they have the same lcd
+sort and use a sieve
+
+B.) Koala and Lights
+max num of lights on at the same time
+simulate each light (n=100)
+- 1000 times *look at time constraints
+
+C.) Paint the digits
+??
+
+D.) Cow & Snacks
+min # of cows who don't get a snack, and each cow has 2 favorite snacks 
+each snack is a vertex
+each edge is a cow
+# of sad cows = # of cycles (repeated vertices) = V - E + C
+
+Balloons
+greedy
+sort by abs value of (dA-dB)
+makes sense since it takes care of when a team needs to take from both A & B
+taking the abs value will minimize the penalty of taking from the wrong team 
+since we want to take more from room A if we're closer to Team A and the same
+if the team is closer to for room B
+
+It's Magic
+binary representation
+using a bit mask
+
+

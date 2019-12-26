@@ -1,0 +1,49 @@
+Topoligcal Sorting
+
+A directed graph, doesn't have to be connected
+
+Number the vertices such that in(u) < in(v)
+
+Analogy:
+
+Putting clothes on in the morning
+nodes - articles of clothing 
+eg. socks, shoes, underwear, pants, shirt, coat, watch
+
+some need to be put on before others. eg. socks before shoes
+- assign numbers to each node, such that it'll be functionally correct
+
+1. underwear
+2. pants
+3. watch
+4. shirt
+5. socks
+6. coats
+7. shoes
+
+*not unique
+
+start: with nodes that have no incoming edges
+expand: in(u) = 0 or any adj such that edge(start,adj)
+
+pseudo
+int[] indeg // indegree of each node
+List<Integer>[] graph
+Queue<Integer> queue // keeps track of nodes
+List<Integer> sorting // keeps resulting sorting
+
+for(int i = 0; i < graph.len. i++)
+	if(indeg[i] == 0) queue.offer(i)
+
+int count=0
+while(!queue.isEmpty())
+	int next = queue.poll
+	sorting.add(next)
+	count++;
+	for(int adj: graph[next])
+		indeg[adj]-- // important so that each node fufills prereq
+		if(indeg[adj] == 0) queue.offer(edge);
+
+MAX first = MIN last	
+no prereq met vs all prereq met
+

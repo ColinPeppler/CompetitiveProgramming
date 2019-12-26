@@ -1,0 +1,24 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+adj	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		List<Node> adj;$/;"	f	language:Java	class:ProblemC.Node
+compareTo	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		public int compareTo(Node oth){$/;"	m	language:Java	class:ProblemC.Node
+DFS	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^	public static boolean DFS(Node curr, Node goal, ArrayList<Integer> list){$/;"	m	language:Java	class:ProblemC
+equals	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		public boolean equals(Node oth){$/;"	m	language:Java	class:ProblemC.Node
+index	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		int index;$/;"	f	language:Java	class:ProblemC.Node
+main	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemA.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemA
+main	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemB.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemB
+main	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemC
+Node	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		public Node(int x){$/;"	m	language:Java	class:ProblemC.Node
+Node	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^	public static class Node implements Comparable<Node>{$/;"	c	language:Java	class:ProblemC
+ProblemA	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemA.java	/^public class ProblemA{$/;"	c	language:Java
+ProblemA.main	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemA.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemA
+ProblemB	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemB.java	/^public class ProblemB{$/;"	c	language:Java
+ProblemB.main	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemB.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemB
+ProblemC	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^public class ProblemC{$/;"	c	language:Java
+ProblemC.DFS	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^	public static boolean DFS(Node curr, Node goal, ArrayList<Integer> list){$/;"	m	language:Java	class:ProblemC
+ProblemC.main	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:ProblemC
+ProblemC.Node	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^	public static class Node implements Comparable<Node>{$/;"	c	language:Java	class:ProblemC
+ProblemC.Node.adj	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		List<Node> adj;$/;"	f	language:Java	class:ProblemC.Node
+ProblemC.Node.compareTo	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		public int compareTo(Node oth){$/;"	m	language:Java	class:ProblemC.Node
+ProblemC.Node.equals	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		public boolean equals(Node oth){$/;"	m	language:Java	class:ProblemC.Node
+ProblemC.Node.index	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		int index;$/;"	f	language:Java	class:ProblemC.Node
+ProblemC.Node.Node	/Users/colinpeppler/CompetitiveProgramming/Week3/Graphs/ProblemC.java	/^		public Node(int x){$/;"	m	language:Java	class:ProblemC.Node

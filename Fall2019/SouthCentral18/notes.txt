@@ -1,0 +1,9 @@
+Problem C: Substring Switcheroo 
+- try every possible substring
+- store char frequency in a histogram <char, int>
+- store histograms in a map <<char, int>, int>
+	- Java would use an arraylist as list<int>
+- for the other string
+	- try every possible substring
+	- store char frequency in a histogram
+	- then check if histogram was made in other substring

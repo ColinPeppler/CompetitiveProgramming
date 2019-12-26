@@ -1,0 +1,14 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+compareTo	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^		public int compareTo(Skill other){$/;"	m	language:Java	class:TeamFormation.Skill
+index	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^		int index;$/;"	f	language:Java	class:TeamFormation.Skill
+main	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:TeamFormation
+Skill	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^		public Skill(int val, int index){$/;"	m	language:Java	class:TeamFormation.Skill
+Skill	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^	private static class Skill implements Comparable<Skill>{$/;"	c	language:Java	class:TeamFormation
+TeamFormation	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^public class TeamFormation{$/;"	c	language:Java
+TeamFormation.main	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:TeamFormation
+TeamFormation.Skill	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^	private static class Skill implements Comparable<Skill>{$/;"	c	language:Java	class:TeamFormation
+TeamFormation.Skill.compareTo	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^		public int compareTo(Skill other){$/;"	m	language:Java	class:TeamFormation.Skill
+TeamFormation.Skill.index	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^		int index;$/;"	f	language:Java	class:TeamFormation.Skill
+TeamFormation.Skill.Skill	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^		public Skill(int val, int index){$/;"	m	language:Java	class:TeamFormation.Skill
+TeamFormation.Skill.val	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^		int val;$/;"	f	language:Java	class:TeamFormation.Skill
+val	/Users/colinpeppler/CompetitiveProgramming/Companies/Amazon/TeamFormation/TeamFormation.java	/^		int val;$/;"	f	language:Java	class:TeamFormation.Skill

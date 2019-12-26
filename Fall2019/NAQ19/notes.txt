@@ -1,0 +1,22 @@
+Problem B: Diagonal Cut (just take the GCD)
+- Diophantine Equations are of the form 
+	ax + by = c
+	x, y are solutions
+	d = gcd(a,b)
+	* in order for a solution to exists, c must be divisible by d
+
+Problem G: Research Productivity Index
+- The expected value is X = a^(a/s)
+- insight: don't check all possible subsets, check a range with the greatest probabilities 
+- The distribution is Poisson~Bernoulli since
+ we have different Bernoulli trials with varying P(X=success)
+
+1.) Moment-generating function M(t) = E(exp(tX))
+- E[X], E[X^2], E[X^3], E[X^r) are called moments
+in our case, E[X^0] is rejected and E[X^1] is accepted
+
+2.) DP
+i paper,  v accepted
+dp[i][v] =  dp[i-1][v] * (1-p_i) 	//paper i is rejected, P([0:i-1] accepted) * p(i is rejected)
+dp[i][v+1] = dp[i-1][v] * p_i 		//paper i is accepted, P([0:i-1] accepted) * p(i is accepted)
+ 

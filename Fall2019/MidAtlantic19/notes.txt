@@ -1,0 +1,11 @@
+Problem E: Never Jump Down (Longest Increasing Subsequence)
+- longest[x] = max(longest[:x]) + 1
+	- naive is O(n^2)
+	- using fenwick is O(n logn)
+
+Problem H: Never Fence Me In
+- Make each coordinate (top-left of the grid) as a node versus arr[][]
+- MST
+
+Problem D: Pixelated
+- 

@@ -1,0 +1,12 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+adj	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^		List<Integer> adj;$/;"	f	language:Java	class:BrexitNegotiations.Node
+BrexitNegotiations	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^public class BrexitNegotiations{$/;"	c	language:Java
+BrexitNegotiations.main	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:BrexitNegotiations
+BrexitNegotiations.Node	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^	public static class Node{$/;"	c	language:Java	class:BrexitNegotiations
+BrexitNegotiations.Node.adj	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^		List<Integer> adj;$/;"	f	language:Java	class:BrexitNegotiations.Node
+BrexitNegotiations.Node.index	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^		int index;$/;"	f	language:Java	class:BrexitNegotiations.Node
+BrexitNegotiations.Node.Node	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^		public Node(int n){$/;"	m	language:Java	class:BrexitNegotiations.Node
+index	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^		int index;$/;"	f	language:Java	class:BrexitNegotiations.Node
+main	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^	public static void main(String[] args){$/;"	m	language:Java	class:BrexitNegotiations
+Node	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^		public Node(int n){$/;"	m	language:Java	class:BrexitNegotiations.Node
+Node	/Users/colinpeppler/CompetitiveProgramming/S19/Week4/TopologicalSorting/BrexitNegotiations.java	/^	public static class Node{$/;"	c	language:Java	class:BrexitNegotiations
